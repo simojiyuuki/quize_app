@@ -22,13 +22,6 @@ extension QuizeModel on QuizeData {
   QuizeData answerQuestion(int score) {
     var _questionIndex = questionIndex + 1;
     var _totalScore = totalScore + score;
-    if (kDebugMode) {
-      if (questionIndex < questionLength) {
-        print("さらに質問があります");
-      } else {
-        print("質問はもうありません");
-      }
-    }
     return QuizeData(questionIndex: _questionIndex, totalScore: _totalScore);
   }
 
