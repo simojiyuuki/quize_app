@@ -1,5 +1,5 @@
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:quize_app/data/model/result/result.dart';
+import 'package:quize_app/data/model/result.dart';
 
 final quizeRepositoryProvider = Provider((ref) => QuizeRepository(ref.read));
 

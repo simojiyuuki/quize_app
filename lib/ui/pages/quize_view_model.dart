@@ -1,5 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:quize_app/data/model/quize/quize_data.dart';
+import 'package:quize_app/data/model/quize_data.dart';
 import 'package:quize_app/data/repository/quize_repository.dart';
 
 final quizeViewModelProvider =
